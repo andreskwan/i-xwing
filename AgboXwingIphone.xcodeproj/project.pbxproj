@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1EC808173C021700EBBED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1EC807173C021700EBBED7 /* UIKit.framework */; };
+		EA1EC80A173C021700EBBED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1EC809173C021700EBBED7 /* Foundation.framework */; };
+		EA1EC80C173C021700EBBED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1EC80B173C021700EBBED7 /* CoreGraphics.framework */; };
+		EA1EC812173C021700EBBED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC810173C021700EBBED7 /* InfoPlist.strings */; };
+		EA1EC814173C021700EBBED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EC813173C021700EBBED7 /* main.m */; };
+		EA1EC818173C021700EBBED7 /* KWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EC817173C021700EBBED7 /* KWAppDelegate.m */; };
+		EA1EC81A173C021700EBBED7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC819173C021700EBBED7 /* Default.png */; };
+		EA1EC81C173C021700EBBED7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC81B173C021700EBBED7 /* Default@2x.png */; };
+		EA1EC81E173C021700EBBED7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC81D173C021700EBBED7 /* Default-568h@2x.png */; };
+		EA1EC821173C021700EBBED7 /* KWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EC820173C021700EBBED7 /* KWViewController.m */; };
+		EA1EC824173C021700EBBED7 /* KWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC822173C021700EBBED7 /* KWViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1EC804173C021700EBBED7 /* AgboXwingIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgboXwingIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1EC807173C021700EBBED7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA1EC809173C021700EBBED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA1EC80B173C021700EBBED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA1EC80F173C021700EBBED7 /* AgboXwingIphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgboXwingIphone-Info.plist"; sourceTree = "<group>"; };
+		EA1EC811173C021700EBBED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA1EC813173C021700EBBED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1EC815173C021700EBBED7 /* AgboXwingIphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgboXwingIphone-Prefix.pch"; sourceTree = "<group>"; };
+		EA1EC816173C021700EBBED7 /* KWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAppDelegate.h; sourceTree = "<group>"; };
+		EA1EC817173C021700EBBED7 /* KWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWAppDelegate.m; sourceTree = "<group>"; };
+		EA1EC819173C021700EBBED7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA1EC81B173C021700EBBED7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA1EC81D173C021700EBBED7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA1EC81F173C021700EBBED7 /* KWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWViewController.h; sourceTree = "<group>"; };
+		EA1EC820173C021700EBBED7 /* KWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWViewController.m; sourceTree = "<group>"; };
+		EA1EC823173C021700EBBED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KWViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1EC801173C021700EBBED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EC808173C021700EBBED7 /* UIKit.framework in Frameworks */,
+				EA1EC80A173C021700EBBED7 /* Foundation.framework in Frameworks */,
+				EA1EC80C173C021700EBBED7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1EC7FB173C021700EBBED7 = {
+			isa = PBXGroup;
+			children = (
+				EA1EC80D173C021700EBBED7 /* AgboXwingIphone */,
+				EA1EC806173C021700EBBED7 /* Frameworks */,
+				EA1EC805173C021700EBBED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1EC805173C021700EBBED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EC804173C021700EBBED7 /* AgboXwingIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1EC806173C021700EBBED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EC807173C021700EBBED7 /* UIKit.framework */,
+				EA1EC809173C021700EBBED7 /* Foundation.framework */,
+				EA1EC80B173C021700EBBED7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1EC80D173C021700EBBED7 /* AgboXwingIphone */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EC816173C021700EBBED7 /* KWAppDelegate.h */,
+				EA1EC817173C021700EBBED7 /* KWAppDelegate.m */,
+				EA1EC81F173C021700EBBED7 /* KWViewController.h */,
+				EA1EC820173C021700EBBED7 /* KWViewController.m */,
+				EA1EC822173C021700EBBED7 /* KWViewController.xib */,
+				EA1EC80E173C021700EBBED7 /* Supporting Files */,
+			);
+			path = AgboXwingIphone;
+			sourceTree = "<group>";
+		};
+		EA1EC80E173C021700EBBED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EC80F173C021700EBBED7 /* AgboXwingIphone-Info.plist */,
+				EA1EC810173C021700EBBED7 /* InfoPlist.strings */,
+				EA1EC813173C021700EBBED7 /* main.m */,
+				EA1EC815173C021700EBBED7 /* AgboXwingIphone-Prefix.pch */,
+				EA1EC819173C021700EBBED7 /* Default.png */,
+				EA1EC81B173C021700EBBED7 /* Default@2x.png */,
+				EA1EC81D173C021700EBBED7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1EC803173C021700EBBED7 /* AgboXwingIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1EC827173C021700EBBED7 /* Build configuration list for PBXNativeTarget "AgboXwingIphone" */;
+			buildPhases = (
+				EA1EC800173C021700EBBED7 /* Sources */,
+				EA1EC801173C021700EBBED7 /* Frameworks */,
+				EA1EC802173C021700EBBED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgboXwingIphone;
+			productName = AgboXwingIphone;
+			productReference = EA1EC804173C021700EBBED7 /* AgboXwingIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1EC7FC173C021700EBBED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kwan;
+			};
+			buildConfigurationList = EA1EC7FF173C021700EBBED7 /* Build configuration list for PBXProject "AgboXwingIphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA1EC7FB173C021700EBBED7;
+			productRefGroup = EA1EC805173C021700EBBED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1EC803173C021700EBBED7 /* AgboXwingIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1EC802173C021700EBBED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EC812173C021700EBBED7 /* InfoPlist.strings in Resources */,
+				EA1EC81A173C021700EBBED7 /* Default.png in Resources */,
+				EA1EC81C173C021700EBBED7 /* Default@2x.png in Resources */,
+				EA1EC81E173C021700EBBED7 /* Default-568h@2x.png in Resources */,
+				EA1EC824173C021700EBBED7 /* KWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1EC800173C021700EBBED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EC814173C021700EBBED7 /* main.m in Sources */,
+				EA1EC818173C021700EBBED7 /* KWAppDelegate.m in Sources */,
+				EA1EC821173C021700EBBED7 /* KWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA1EC810173C021700EBBED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1EC811173C021700EBBED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA1EC822173C021700EBBED7 /* KWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1EC823173C021700EBBED7 /* en */,
+			);
+			name = KWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1EC825173C021700EBBED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA1EC826173C021700EBBED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1EC828173C021700EBBED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgboXwingIphone/AgboXwingIphone-Prefix.pch";
+				INFOPLIST_FILE = "AgboXwingIphone/AgboXwingIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA1EC829173C021700EBBED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgboXwingIphone/AgboXwingIphone-Prefix.pch";
+				INFOPLIST_FILE = "AgboXwingIphone/AgboXwingIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1EC7FF173C021700EBBED7 /* Build configuration list for PBXProject "AgboXwingIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EC825173C021700EBBED7 /* Debug */,
+				EA1EC826173C021700EBBED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1EC827173C021700EBBED7 /* Build configuration list for PBXNativeTarget "AgboXwingIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EC828173C021700EBBED7 /* Debug */,
+				EA1EC829173C021700EBBED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1EC7FC173C021700EBBED7 /* Project object */;
+}
