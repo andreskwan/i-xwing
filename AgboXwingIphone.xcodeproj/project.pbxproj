@@ -18,6 +18,8 @@
 		EA1EC81E173C021700EBBED7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC81D173C021700EBBED7 /* Default-568h@2x.png */; };
 		EA1EC821173C021700EBBED7 /* KWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EC820173C021700EBBED7 /* KWViewController.m */; };
 		EA1EC824173C021700EBBED7 /* KWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC822173C021700EBBED7 /* KWViewController.xib */; };
+		EA1EC82B173C054D00EBBED7 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC82A173C054D00EBBED7 /* images-1.jpeg */; };
+		EA1EC82D173C05D200EBBED7 /* X-Wing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1EC82C173C05D200EBBED7 /* X-Wing-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		EA1EC81F173C021700EBBED7 /* KWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWViewController.h; sourceTree = "<group>"; };
 		EA1EC820173C021700EBBED7 /* KWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWViewController.m; sourceTree = "<group>"; };
 		EA1EC823173C021700EBBED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KWViewController.xib; sourceTree = "<group>"; };
+		EA1EC82A173C054D00EBBED7 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		EA1EC82C173C05D200EBBED7 /* X-Wing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X-Wing-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		EA1EC80D173C021700EBBED7 /* AgboXwingIphone */ = {
 			isa = PBXGroup;
 			children = (
+				EA1EC82C173C05D200EBBED7 /* X-Wing-icon.png */,
+				EA1EC82A173C054D00EBBED7 /* images-1.jpeg */,
 				EA1EC816173C021700EBBED7 /* KWAppDelegate.h */,
 				EA1EC817173C021700EBBED7 /* KWAppDelegate.m */,
 				EA1EC81F173C021700EBBED7 /* KWViewController.h */,
@@ -164,6 +170,8 @@
 				EA1EC81C173C021700EBBED7 /* Default@2x.png in Resources */,
 				EA1EC81E173C021700EBBED7 /* Default-568h@2x.png in Resources */,
 				EA1EC824173C021700EBBED7 /* KWViewController.xib in Resources */,
+				EA1EC82B173C054D00EBBED7 /* images-1.jpeg in Resources */,
+				EA1EC82D173C05D200EBBED7 /* X-Wing-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface KWViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *spaceView;
+@property (weak, nonatomic) IBOutlet UIImageView *xwingView;
 
+-(void) onTap:(UITapGestureRecognizer *)tap;
 @end
